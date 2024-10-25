@@ -4,6 +4,7 @@
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Enter the number");
             Random random = new Random();
             int randomNumber = random.Next(1, 11);
 
